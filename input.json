@@ -1,0 +1,16 @@
+{
+  "users":[
+    { "id": 1, "passengers_cost_per_km": 8,  "home_lat": 48, "home_lng": 2, "work_lat": 51, "work_lng": 2 },
+    { "id": 2, "passengers_cost_per_km": 9,  "home_lat": 48, "home_lng": 2, "work_lat": 51, "work_lng": 2 },
+    { "id": 3, "passengers_cost_per_km": 10, "home_lat": 99, "home_lng": 9, "work_lat": 51, "work_lng": 2 }
+  ],
+  "rides":[
+    { "id": 1, "driver_id": 1, "passenger_id": 2, "departure_at": "2019-11-04T07:00:00Z", "arrival_at": "2019-11-04T07:20:00Z", "distance": 25000 },
+    { "id": 2, "driver_id": 1, "passenger_id": 3, "departure_at": "2019-11-04T07:15:00Z", "arrival_at": "2019-11-04T07:30:00Z", "distance": 12500 },
+    { "id": 3, "driver_id": 3, "passenger_id": 2, "departure_at": "2019-11-04T18:00:00Z", "arrival_at": "2019-11-04T18:40:00Z", "distance": 50000 }
+  ],
+  "sponsorships": [
+    { "id": 1, "amount": 50, "eligibility_bbox": [[47,1],[49,3]] },
+    { "id": 1, "amount": 30, "eligibility_bbox": [[50,1],[52,3]] }
+  ]
+}
