@@ -7,7 +7,7 @@ Breaking change !
 * Driver `profit` is split between passengers in the car to calculate `cost`,
 * Each passenger pays for the time he is in the car.
 
-Output each user total cost and profit.
+Output each user total `cost` and `profit`.
 
 ## Notes
 

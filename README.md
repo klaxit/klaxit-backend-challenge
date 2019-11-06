@@ -18,10 +18,13 @@ Completing the 3 levels, you will implement these mechanisms.
 
 For each level, write code that creates a new `level*/output.json` file from the `input.json` file. A `level*/expected_output.json` file is available to give you a reference on which output is expected at each level.
 
-- Clone this repo,
+- Clone this repo (please **do not** fork it),
 - Solve the levels in ascending order,
-- Don't hesitate to write shameless code at first and refactor it afterward,
-- Keep only one commit per level ([git autosquash](https://blog.sebastian-daschner.com/entries/git-commit-fixup-autosquash) can help you).
+- Keep only one commit per level,
+- You can use Ruby, Golang, Python or Node.JS,
+- Calling `make` should execute you code (see `Makefile`),
+- Do not use external dependencies (please stick to your language Standard Library),
+- You can split your code in multiple files.
 
 ## Send us your achievement
 
