@@ -1,0 +1,17 @@
+#!/usr/bin/env zsh
+local name bundle_name
+
+set -e
+echo 'Have you commited all your changes? (y/n)'
+if ! read -qs; then
+  echo 'Please commit them before bundling'
+  exit 0
+fi
+
+echo 'Please type your name:'
+read name
+
+bundle_name=klaxit-backend-challenge_$name.bundle
+git bundle create $bundle_name --all
+
+echo "Bundle created under $bundle_name, it is time to submit it!"

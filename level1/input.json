@@ -1,0 +1,12 @@
+{
+  "users": [
+    { "id": 1, "passengers_cost_per_km": 8 },
+    { "id": 2, "passengers_cost_per_km": 9 },
+    { "id": 3, "passengers_cost_per_km": 10 }
+  ],
+  "rides": [
+    { "id": 1, "driver_id": 1, "passenger_id": 2, "distance": 25000 },
+    { "id": 2, "driver_id": 1, "passenger_id": 3, "distance": 12500 },
+    { "id": 3, "driver_id": 3, "passenger_id": 2, "distance": 50000 }
+  ]
+}

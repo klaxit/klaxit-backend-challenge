@@ -1,3 +1,4 @@
 .DS_Store
-*.rb
 .byebug_history
+*.bundle
+level*/output.json

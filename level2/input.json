@@ -1,0 +1,12 @@
+{
+  "users": [
+    { "id": 1 },
+    { "id": 2 },
+    { "id": 3 }
+  ],
+  "rides": [
+    { "id": 1, "driver_id": 1, "passenger_id": 2, "departure_at": "2019-11-04T07:00:00Z", "arrival_at": "2019-11-04T07:20:00Z" },
+    { "id": 2, "driver_id": 1, "passenger_id": 3, "departure_at": "2019-11-04T07:15:00Z", "arrival_at": "2019-11-04T07:30:00Z" },
+    { "id": 3, "driver_id": 3, "passenger_id": 2, "departure_at": "2019-11-04T18:00:00Z", "arrival_at": "2019-11-04T18:40:00Z" }
+  ]
+}

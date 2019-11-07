@@ -1,0 +1,16 @@
+{
+  "users": [
+    { "id": 1, "home_lat": 48, "home_lng": 2, "work_lat": 51, "work_lng": 2 },
+    { "id": 2, "home_lat": 48, "home_lng": 2, "work_lat": 51, "work_lng": 2 },
+    { "id": 3, "home_lat": 99, "home_lng": 9, "work_lat": 51, "work_lng": 2 }
+  ],
+  "rides": [
+    { "id": 1, "driver_id": 1, "passenger_id": 2, "departure_at": "2019-11-04T07:00:00Z", "arrival_at": "2019-11-04T07:20:00Z" },
+    { "id": 2, "driver_id": 1, "passenger_id": 3, "departure_at": "2019-11-04T07:15:00Z", "arrival_at": "2019-11-04T07:30:00Z" },
+    { "id": 3, "driver_id": 3, "passenger_id": 2, "departure_at": "2019-11-04T18:00:00Z", "arrival_at": "2019-11-04T18:40:00Z" }
+  ],
+  "sponsorships": [
+    { "id": 1, "amount": 50, "eligibility_bbox": [[47,1],[49,3]] },
+    { "id": 2, "amount": 30, "eligibility_bbox": [[50,1],[52,3]] }
+  ]
+}
