@@ -1,0 +1,10 @@
+#!/usr/bin/env zsh
+
+diff_options=(--ignore-tab-expansion --side-by-side --ignore-blank-lines --ignore-all-space --ignore-space-change)
+for i in 1 2 3; do
+	diff $diff_options --brief level$i/expected_output.json level$i/output.json && continue
+	diff $diff_options level$i/expected_output.json level$i/output.json
+done
+
+# A tiny makefile hack: even if last line is errored, make won't stop.
+true
