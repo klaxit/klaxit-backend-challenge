@@ -23,7 +23,7 @@ For each level, write code that creates a new `level*/output.json` file from the
 - Solve the levels in ascending order,
 - Keep only one commit per level,
 - You can use Ruby, Golang, Python or Node.JS,
-- Calling `make` should execute you code (see `Makefile`),
+- Calling `make` should execute your code (see `Makefile`),
 - Do not use external dependencies (please stick to your language Standard Library),
 - You can split your code in multiple files.
 
