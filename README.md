@@ -1,6 +1,6 @@
 # Klaxit backend challenge
 
-Looking for a job? Check out our [open positions](https://klaxit.workable.com).
+Looking for a job? Check out our [open positions](https://www.welcometothejungle.com/fr/companies/klaxit/jobs).
 
 If you want to join Klaxit backend team, here is the best way to prove your skills!
 
@@ -29,6 +29,6 @@ For each level, write code that creates a new `level*/output.json` file from the
 
 ## Send us your achievement
 
-Bundle the whole project with `make bundle`, and send it to us (by email if you are already in contact with us or by uploading it while applying to an [open position](https://klaxit.workable.com)).
+Bundle the whole project with `make bundle`, and send it to us (by email if you are already in contact with us or by uploading it while applying to an [open position](https://www.welcometothejungle.com/fr/companies/klaxit/jobs)).
 
 You can also have a look at our [engineering blog](https://medium.com/klaxit-techblog) and our [Github](https://github.com/klaxit?type=source) to see more about what we do at Klaxit.
